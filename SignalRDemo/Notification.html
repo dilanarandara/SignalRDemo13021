@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>SignalR Notiication</title>
+</head>
+<body>
+    <label>Message To Send</label>
+    <input type="text" name="txtNotification" id="txtNotification" />
+    <input type="button" name="SendNotification" id="SendNotification" value="Send" />
+    <br />
+    <br />
+    <br />
+    <label>Messages Received</label>
+    <div id="messages"></div>
+
+    <script src="Scripts/jquery-1.6.4.min.js"></script>
+    <script src="Scripts/jquery.signalR-1.0.0-rc2.min.js"></script>
+    <script src="/signalr/hubs"></script>
+    <script src="Scripts/Notification.js"></script>
+</body>
+</html>
